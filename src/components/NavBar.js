@@ -6,7 +6,7 @@ import { ShoppingCartOutlined } from '@mui/icons-material';
 
 const Container = styledComponents.div`
   height: 60px;
-  background-color: #3A5A40;
+  background-color: #000000;
 `;
 
 const Wrapper = styledComponents.div`
@@ -26,12 +26,12 @@ const Left = styledComponents.div`
 const Language = styledComponents.span`
   font-size: 14px;
   cursor: pointer;
-  color:  #DAD7CD;
+  color:  #FFFFFF;
 `;
 
 const SearchContainer = styledComponents.div`
-  border: 1px solid #A3B18A;
-  background: #DAD7CD;
+  border: 1px solid #E5E5E5;
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -39,13 +39,13 @@ const SearchContainer = styledComponents.div`
 `;
 
 const Input = styledComponents.input`
-  background: #DAD7CD;
+  background: #FFFFFF;
   border: none;
 `;
 
 const Logo = styledComponents.h1`
   font-weight: bold;
-  color:  #DAD7CD;
+  color:  #FFFFFF;
 `;
 
 const Center = styledComponents.div`
@@ -57,7 +57,7 @@ const Right = styledComponents.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  color: #DAD7CD;
+  color: #FFFFFF;
 `;
 
 const MenuItem = styledComponents.div`
@@ -78,7 +78,7 @@ const NavBar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>E-commerce.</Logo>
+          <Logo>Fashion.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
