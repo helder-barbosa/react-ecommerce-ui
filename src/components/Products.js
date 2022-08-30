@@ -9,7 +9,7 @@ const Container = styled.div`
   justify-content: space-between;
 `;
 
-const ProductList = () => {
+const Products = () => {
   return (
     <Container>
       {popularProducts.map((item) => (
@@ -19,4 +19,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default Products;
